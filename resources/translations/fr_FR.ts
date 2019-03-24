@@ -5,12 +5,27 @@
     <message>
         <location filename="../views/MainWindow.ui" line="34"/>
         <source>HELLO!</source>
-        <translation>BONJOUR!</translation>
+        <translation type="obsolete">BONJOUR!</translation>
     </message>
     <message>
         <location filename="../views/MainWindow.ui" line="14"/>
         <source>App</source>
         <translation></translation>
+    </message>
+    <message>
+        <location filename="../views/MainWindow.ui" line="25"/>
+        <source>Tab 1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../views/MainWindow.ui" line="76"/>
+        <source>PushButton</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../views/MainWindow.ui" line="85"/>
+        <source>Tab 2</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

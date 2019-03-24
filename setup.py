@@ -36,6 +36,8 @@ if has_build_ui:
             # build translations
             check_call(['pylupdate5', 'app.pro'])
 
+            # TODO: autoenv
+            # export LRELEASE_BIN="/Users/anthony/Qt5.12.2/5.12.2/clang_64/bin/lrelease"
             lrelease = os.environ.get('LRELEASE_BIN')
             if not lrelease:
                 lrelease = 'lrelease'
@@ -90,4 +92,4 @@ setup(name='app',
       entry_points={
           'gui_scripts': ['app=app.__main__:main'],
       },
-      cmdclass=cmdclass)
+      cmdclass=cmdclass, install_requires=['apiclient', 'google-api-python-client'])

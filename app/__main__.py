@@ -10,6 +10,9 @@ from . import resources_rc  # noqa
 
 
 def main():
+    """
+    controller
+    """
     app = QApplication(sys.argv)
 
     app.setWindowIcon(QIcon(':/icons/app.svg'))
