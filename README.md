@@ -1,5 +1,20 @@
 # migrate2yt
 
+env
+* pipenv
+
+framework:
+* PyQt5
+
+lib:
+* tensorflow
+
+api:
+* youtube data python API
+
+pattern:
+* classic MVC
+
 ## dev note
 
 how to parse text containing yt links?
