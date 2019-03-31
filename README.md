@@ -5,9 +5,10 @@ env
 
 framework:
 * PyQt5
+* tensorflow
 
 lib:
-* tensorflow
+* BeautifulSoap
 
 api:
 * youtube data python API
