@@ -88,7 +88,7 @@ setup(name='app',
       author='Anthony Jung',
       author_email='jwseok0727@gmail.com',
       license='MIT',
-      url='http://github.com/anthony0727/migrate2yt',
+      url='https://github.com/anthony0727/migrate2yt',
       entry_points={
           'gui_scripts': ['app=app.__main__:main'],
       },
