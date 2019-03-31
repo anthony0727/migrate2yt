@@ -1,9 +1,7 @@
 import unittest
-from .parsers import *
+from ..parsers import *
 
 class TestParsers(unittest.TestCase):
- 
-
     def test_count_youtube_link(self):
         pass
 

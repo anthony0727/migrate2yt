@@ -7,19 +7,19 @@
         <source>App</source>
         <translation></translation>
     </message>
-    <message>
-        <location filename="../views/MainWindow.ui" line="25"/>
-        <source>Tab 1</source>
+    <message encoding="UTF-8">
+        <location filename="../views/MainWindow.ui" line="26"/>
+        <source>추가</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message encoding="UTF-8">
+        <location filename="../views/MainWindow.ui" line="40"/>
+        <source>로그인</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../views/MainWindow.ui" line="76"/>
-        <source>PushButton</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../views/MainWindow.ui" line="85"/>
-        <source>Tab 2</source>
+        <location filename="../views/MainWindow.ui" line="54"/>
+        <source>go</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

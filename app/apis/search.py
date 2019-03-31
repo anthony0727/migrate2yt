@@ -9,7 +9,7 @@ from oauth2client.tools import argparser
 #   https://cloud.google.com/console
 # Please ensure that you have enabled the YouTube Data API for your project.
 DEVELOPER_KEY = "REPLACE_ME"
-YOUTUBE_API_SERVICE_NAME = "youtube_util"
+YOUTUBE_API_SERVICE_NAME = "apis"
 YOUTUBE_API_VERSION = "v3"
 
 
@@ -32,13 +32,13 @@ def youtube_search(options):
     # Add each result to the appropriate list, and then display the lists of
     # matching videos, channels, and playlists.
     for search_result in search_response.get("items", []):
-        if search_result["id"]["kind"] == "youtube_util#video":
+        if search_result["id"]["kind"] == "apis#video":
             videos.append("%s (%s)" % (search_result["snippet"]["title"],
                                        search_result["id"]["videoId"]))
-        elif search_result["id"]["kind"] == "youtube_util#channel":
+        elif search_result["id"]["kind"] == "apis#channel":
             channels.append("%s (%s)" % (search_result["snippet"]["title"],
                                          search_result["id"]["channelId"]))
-        elif search_result["id"]["kind"] == "youtube_util#playlist":
+        elif search_result["id"]["kind"] == "apis#playlist":
             playlists.append("%s (%s)" % (search_result["snippet"]["title"],
                                           search_result["id"]["playlistId"]))
 

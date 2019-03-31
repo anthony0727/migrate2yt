@@ -42,8 +42,8 @@ https://developers.google.com/api-client-library/python/guide/aaa_client_secrets
 
 # This OAuth 2.0 access scope allows for full read/write access to the
 # authenticated user's account.
-YOUTUBE_READ_WRITE_SCOPE = "https://www.googleapis.com/auth/youtube_util"
-YOUTUBE_API_SERVICE_NAME = "youtube_util"
+YOUTUBE_READ_WRITE_SCOPE = "https://www.googleapis.com/auth/apis"
+YOUTUBE_API_SERVICE_NAME = "apis"
 YOUTUBE_API_VERSION = "v3"
 
 
