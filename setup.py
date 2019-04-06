@@ -84,12 +84,12 @@ cmdclass['bdist_app'] = bdist_app
 setup(name='app',
       version=_version,
       packages=find_packages(),
-      description='PyQt5 Boilerplate',
-      author='Gerard Marull-Paretas',
-      author_email='gerardmarull@gmail.com',
+      description='migrate2yt',
+      author='anthony',
+      author_email='jwseok0727@gmail.com',
       license='MIT',
-      url='http://www.teslabs.com',
+      url='https://github.com/anthony0727',
       entry_points={
           'gui_scripts': ['app=app.__main__:main'],
       },
-      cmdclass=cmdclass, install_requires=['apiclient', 'google-api-python-client'])
+      cmdclass=cmdclass)

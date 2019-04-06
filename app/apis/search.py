@@ -12,7 +12,7 @@ DEVELOPER_KEY = "REPLACE_ME"
 YOUTUBE_API_SERVICE_NAME = "apis"
 YOUTUBE_API_VERSION = "v3"
 
-
+import numpy as np
 def youtube_search(options):
     youtube = build(YOUTUBE_API_SERVICE_NAME, YOUTUBE_API_VERSION,
                     developerKey=DEVELOPER_KEY)
