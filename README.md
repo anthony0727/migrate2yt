@@ -5,7 +5,6 @@ env
 
 framework:
 * PyQt5
-* tensorflow
 
 lib:
 * BeautifulSoap
@@ -38,7 +37,9 @@ i dunno.
 
 but must take in to consideration, 
 
-since 10000 likes will lead to 10000 requests
+since text extraction, parsing links and many other tasks are presumably ran together.
+
+and each load(10000 likes will lead to 10000 requests) is heavy.
 
 maybe or maybe not.
 
