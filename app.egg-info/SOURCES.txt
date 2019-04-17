@@ -11,7 +11,6 @@ app.egg-info/PKG-INFO
 app.egg-info/SOURCES.txt
 app.egg-info/dependency_links.txt
 app.egg-info/entry_points.txt
-app.egg-info/requires.txt
 app.egg-info/top_level.txt
 app/views/MainWindow.py
 app/views/MainWindow_ui.py
