@@ -12,7 +12,8 @@ google-api-python-client = "*"
 
 [dev-packages]
 pyqt-distutils = "*"
-PyInstaller = "*"
+PyInstaller = ">=3.6"
+urllib3 = ">=1.24.2"
 Sphinx = "*"
 sphinx_rtd_theme = "*"
 e1839a8 = {path = ".",editable = true}
